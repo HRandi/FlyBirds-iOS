@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		619571C32366FCD800320D0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619571C22366FCD800320D0C /* AppDelegate.swift */; };
+		619571C52366FCD800320D0C /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 619571C42366FCD800320D0C /* GameScene.sks */; };
+		619571C72366FCD800320D0C /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 619571C62366FCD800320D0C /* Actions.sks */; };
+		619571C92366FCD800320D0C /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619571C82366FCD800320D0C /* GameScene.swift */; };
+		619571CB2366FCD800320D0C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619571CA2366FCD800320D0C /* GameViewController.swift */; };
+		619571CE2366FCD800320D0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 619571CC2366FCD800320D0C /* Main.storyboard */; };
+		619571D02366FCD900320D0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 619571CF2366FCD900320D0C /* Assets.xcassets */; };
+		619571D32366FCD900320D0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 619571D12366FCD900320D0C /* LaunchScreen.storyboard */; };
+		619571DE2366FCDA00320D0C /* Fly_BirdsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619571DD2366FCDA00320D0C /* Fly_BirdsTests.swift */; };
+		619571E92366FCDA00320D0C /* Fly_BirdsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619571E82366FCDA00320D0C /* Fly_BirdsUITests.swift */; };
+		619571F723670D1200320D0C /* shoot.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 619571F623670D1200320D0C /* shoot.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		619571DA2366FCDA00320D0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 619571B72366FCD800320D0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 619571BE2366FCD800320D0C;
+			remoteInfo = "Fly Birds";
+		};
+		619571E52366FCDA00320D0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 619571B72366FCD800320D0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 619571BE2366FCD800320D0C;
+			remoteInfo = "Fly Birds";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		619571BF2366FCD800320D0C /* Fly Birds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fly Birds.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		619571C22366FCD800320D0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		619571C42366FCD800320D0C /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		619571C62366FCD800320D0C /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		619571C82366FCD800320D0C /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		619571CA2366FCD800320D0C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		619571CD2366FCD800320D0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		619571CF2366FCD900320D0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		619571D22366FCD900320D0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		619571D42366FCD900320D0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		619571D92366FCDA00320D0C /* Fly BirdsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fly BirdsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		619571DD2366FCDA00320D0C /* Fly_BirdsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fly_BirdsTests.swift; sourceTree = "<group>"; };
+		619571DF2366FCDA00320D0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		619571E42366FCDA00320D0C /* Fly BirdsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fly BirdsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		619571E82366FCDA00320D0C /* Fly_BirdsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fly_BirdsUITests.swift; sourceTree = "<group>"; };
+		619571EA2366FCDA00320D0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		619571F623670D1200320D0C /* shoot.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = shoot.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		619571BC2366FCD800320D0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		619571D62366FCDA00320D0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		619571E12366FCDA00320D0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		619571B62366FCD800320D0C = {
+			isa = PBXGroup;
+			children = (
+				619571C12366FCD800320D0C /* Fly Birds */,
+				619571DC2366FCDA00320D0C /* Fly BirdsTests */,
+				619571E72366FCDA00320D0C /* Fly BirdsUITests */,
+				619571C02366FCD800320D0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		619571C02366FCD800320D0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				619571BF2366FCD800320D0C /* Fly Birds.app */,
+				619571D92366FCDA00320D0C /* Fly BirdsTests.xctest */,
+				619571E42366FCDA00320D0C /* Fly BirdsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		619571C12366FCD800320D0C /* Fly Birds */ = {
+			isa = PBXGroup;
+			children = (
+				619571C22366FCD800320D0C /* AppDelegate.swift */,
+				619571C42366FCD800320D0C /* GameScene.sks */,
+				619571C62366FCD800320D0C /* Actions.sks */,
+				619571C82366FCD800320D0C /* GameScene.swift */,
+				619571CA2366FCD800320D0C /* GameViewController.swift */,
+				619571F623670D1200320D0C /* shoot.mp3 */,
+				619571CC2366FCD800320D0C /* Main.storyboard */,
+				619571CF2366FCD900320D0C /* Assets.xcassets */,
+				619571D12366FCD900320D0C /* LaunchScreen.storyboard */,
+				619571D42366FCD900320D0C /* Info.plist */,
+			);
+			path = "Fly Birds";
+			sourceTree = "<group>";
+		};
+		619571DC2366FCDA00320D0C /* Fly BirdsTests */ = {
+			isa = PBXGroup;
+			children = (
+				619571DD2366FCDA00320D0C /* Fly_BirdsTests.swift */,
+				619571DF2366FCDA00320D0C /* Info.plist */,
+			);
+			path = "Fly BirdsTests";
+			sourceTree = "<group>";
+		};
+		619571E72366FCDA00320D0C /* Fly BirdsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				619571E82366FCDA00320D0C /* Fly_BirdsUITests.swift */,
+				619571EA2366FCDA00320D0C /* Info.plist */,
+			);
+			path = "Fly BirdsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		619571BE2366FCD800320D0C /* Fly Birds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 619571ED2366FCDA00320D0C /* Build configuration list for PBXNativeTarget "Fly Birds" */;
+			buildPhases = (
+				619571BB2366FCD800320D0C /* Sources */,
+				619571BC2366FCD800320D0C /* Frameworks */,
+				619571BD2366FCD800320D0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fly Birds";
+			productName = "Fly Birds";
+			productReference = 619571BF2366FCD800320D0C /* Fly Birds.app */;
+			productType = "com.apple.product-type.application";
+		};
+		619571D82366FCDA00320D0C /* Fly BirdsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 619571F02366FCDA00320D0C /* Build configuration list for PBXNativeTarget "Fly BirdsTests" */;
+			buildPhases = (
+				619571D52366FCDA00320D0C /* Sources */,
+				619571D62366FCDA00320D0C /* Frameworks */,
+				619571D72366FCDA00320D0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				619571DB2366FCDA00320D0C /* PBXTargetDependency */,
+			);
+			name = "Fly BirdsTests";
+			productName = "Fly BirdsTests";
+			productReference = 619571D92366FCDA00320D0C /* Fly BirdsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		619571E32366FCDA00320D0C /* Fly BirdsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 619571F32366FCDA00320D0C /* Build configuration list for PBXNativeTarget "Fly BirdsUITests" */;
+			buildPhases = (
+				619571E02366FCDA00320D0C /* Sources */,
+				619571E12366FCDA00320D0C /* Frameworks */,
+				619571E22366FCDA00320D0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				619571E62366FCDA00320D0C /* PBXTargetDependency */,
+			);
+			name = "Fly BirdsUITests";
+			productName = "Fly BirdsUITests";
+			productReference = 619571E42366FCDA00320D0C /* Fly BirdsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		619571B72366FCD800320D0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Haja Randi";
+				TargetAttributes = {
+					619571BE2366FCD800320D0C = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					619571D82366FCDA00320D0C = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 619571BE2366FCD800320D0C;
+					};
+					619571E32366FCDA00320D0C = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 619571BE2366FCD800320D0C;
+					};
+				};
+			};
+			buildConfigurationList = 619571BA2366FCD800320D0C /* Build configuration list for PBXProject "Fly Birds" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 619571B62366FCD800320D0C;
+			productRefGroup = 619571C02366FCD800320D0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				619571BE2366FCD800320D0C /* Fly Birds */,
+				619571D82366FCDA00320D0C /* Fly BirdsTests */,
+				619571E32366FCDA00320D0C /* Fly BirdsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		619571BD2366FCD800320D0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				619571CE2366FCD800320D0C /* Main.storyboard in Resources */,
+				619571C52366FCD800320D0C /* GameScene.sks in Resources */,
+				619571D02366FCD900320D0C /* Assets.xcassets in Resources */,
+				619571D32366FCD900320D0C /* LaunchScreen.storyboard in Resources */,
+				619571F723670D1200320D0C /* shoot.mp3 in Resources */,
+				619571C72366FCD800320D0C /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		619571D72366FCDA00320D0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		619571E22366FCDA00320D0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		619571BB2366FCD800320D0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				619571C92366FCD800320D0C /* GameScene.swift in Sources */,
+				619571CB2366FCD800320D0C /* GameViewController.swift in Sources */,
+				619571C32366FCD800320D0C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		619571D52366FCDA00320D0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				619571DE2366FCDA00320D0C /* Fly_BirdsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		619571E02366FCDA00320D0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				619571E92366FCDA00320D0C /* Fly_BirdsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		619571DB2366FCDA00320D0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 619571BE2366FCD800320D0C /* Fly Birds */;
+			targetProxy = 619571DA2366FCDA00320D0C /* PBXContainerItemProxy */;
+		};
+		619571E62366FCDA00320D0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 619571BE2366FCD800320D0C /* Fly Birds */;
+			targetProxy = 619571E52366FCDA00320D0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		619571CC2366FCD800320D0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				619571CD2366FCD800320D0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		619571D12366FCD900320D0C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				619571D22366FCD900320D0C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		619571EB2366FCDA00320D0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		619571EC2366FCDA00320D0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		619571EE2366FCDA00320D0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 684N34XNQX;
+				INFOPLIST_FILE = "Fly Birds/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hajarandi.Fly-Birds";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		619571EF2366FCDA00320D0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 684N34XNQX;
+				INFOPLIST_FILE = "Fly Birds/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hajarandi.Fly-Birds";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		619571F12366FCDA00320D0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fly BirdsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hajarandi.Fly-BirdsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fly Birds.app/Fly Birds";
+			};
+			name = Debug;
+		};
+		619571F22366FCDA00320D0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fly BirdsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hajarandi.Fly-BirdsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fly Birds.app/Fly Birds";
+			};
+			name = Release;
+		};
+		619571F42366FCDA00320D0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fly BirdsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hajarandi.Fly-BirdsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fly Birds";
+			};
+			name = Debug;
+		};
+		619571F52366FCDA00320D0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fly BirdsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hajarandi.Fly-BirdsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fly Birds";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		619571BA2366FCD800320D0C /* Build configuration list for PBXProject "Fly Birds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				619571EB2366FCDA00320D0C /* Debug */,
+				619571EC2366FCDA00320D0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		619571ED2366FCDA00320D0C /* Build configuration list for PBXNativeTarget "Fly Birds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				619571EE2366FCDA00320D0C /* Debug */,
+				619571EF2366FCDA00320D0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		619571F02366FCDA00320D0C /* Build configuration list for PBXNativeTarget "Fly BirdsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				619571F12366FCDA00320D0C /* Debug */,
+				619571F22366FCDA00320D0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		619571F32366FCDA00320D0C /* Build configuration list for PBXNativeTarget "Fly BirdsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				619571F42366FCDA00320D0C /* Debug */,
+				619571F52366FCDA00320D0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 619571B72366FCD800320D0C /* Project object */;
+}
